@@ -35,7 +35,7 @@ def getUsers():
 
 def main():
     # Go to your page url
-    driver.get('https://www.instagram.com/pedzo.exe/')
+    driver.get('https://www.instagram.com/<yourpage>/')
     time.sleep(1)
 
     driver.find_element_by_partial_link_text('Log In').click()
